@@ -1,0 +1,32 @@
+{
+  "name": "@hakeemullahjan/sonar-ui",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/hakeemullahjan"
+  },
+  "version": "0.0.1",
+  "description": "A simple UI component for the Sonar",
+  "scripts": {
+    "rollup": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hakeemullah Yousufzai",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.33",
+    "react": "^18.2.0",
+    "rollup": "^3.20.2",
+    "rollup-plugin-dts": "^5.3.0",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.3"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
