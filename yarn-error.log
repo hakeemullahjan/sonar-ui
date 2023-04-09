@@ -1,0 +1,67 @@
+Arguments: 
+  /usr/local/bin/node /home/hakeemullah/.yarn/bin/yarn.js publish
+
+PATH: 
+  /home/hakeemullah/.yarn/bin:/home/hakeemullah/.config/yarn/global/node_modules/.bin:/home/hakeemullah/.yarn/bin:/home/hakeemullah/.config/yarn/global/node_modules/.bin:/home/hakeemullah/.cargo/bin:/home/hakeemullah/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/sonar-scanner/bin:/home/hakeemullah/.foundry/bin:/home/hakeemullah/.foundry/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/hakeemullah/.yarn/lib/cli.js:137150:13)
+      at Interface.emit (node:events:513:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1131:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:270:20)
+      at ReadStream.emit (node:events:513:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  {
+    "name": "@hakeemullahjan/sonar-ui",
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com/hakeemullahjan"
+    },
+    "version": "0.0.3",
+    "description": "A simple UI component for the Sonar",
+    "scripts": {
+      "rollup": "rollup -c",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Hakeemullah Yousufzai",
+    "license": "ISC",
+    "devDependencies": {
+      "@rollup/plugin-commonjs": "^24.0.1",
+      "@rollup/plugin-node-resolve": "^15.0.1",
+      "@rollup/plugin-typescript": "^11.0.0",
+      "@types/react": "^18.0.33",
+      "react": "^18.2.0",
+      "rollup": "^3.20.2",
+      "rollup-plugin-dts": "^5.3.0",
+      "tslib": "^2.5.0",
+      "typescript": "^5.0.3"
+    },
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "files": [
+      "dist"
+    ],
+    "types": "dist/index.d.ts"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
