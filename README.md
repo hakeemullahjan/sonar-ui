@@ -1,7 +1,12 @@
 # sonar-ui
 UI Component libray for Sonar.
 
-How to use
+## How to Instal
+```
+npm install @hakeemullahjan/sonar-ui
+```
+
+## How to use
 
 ```javascript
 import { Button } from "@hakeemullahjan/sonar-ui";
