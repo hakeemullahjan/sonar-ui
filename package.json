@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/hakeemullahjan"
   },
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A simple UI component for the Sonar",
   "scripts": {
     "rollup": "rollup -c",
