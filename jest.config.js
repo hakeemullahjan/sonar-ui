@@ -6,4 +6,7 @@ module.exports = {
     "^.+\\.ts?$": "ts-jest",
   },
   transformIgnorePatterns: ["<rootDir>/node_modules/"],
+  moduleNameMapper: {
+    ".(css|less|scss)$": "identity-obj-proxy",
+  },
 };
